@@ -7,15 +7,6 @@ Designed to save time and maintain consistency across your app forms.
 
 ## 📸 Screenshots
 
-### Basic Text Field
-![Text Field Example](text_fields.jpg)
-
-### Date Field with Toggle
-![Date Field](screenshots/date.jpg)
-
-### Time Picker Example
-![Time Picker](screenshots/time.jpg)
-
 ### Gif  Example
 ![Gif](screenshots/Gif.gif)
 
