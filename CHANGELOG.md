@@ -1,6 +1,6 @@
 ## 1.0.0
 
-- Initial release of `advanced_textfield` package.
+- Initial release of `textfield_customizer` package.
 - Added fully customizable `CustomTextField` widget.
 - Features:
   - Supports text, password, date, and time input.

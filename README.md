@@ -1,4 +1,4 @@
-# ✨ Advanced Textfield
+# ✨ Textfield Customizer
 
 A **highly customizable Flutter `TextFormField` widget** with built-in support for password visibility toggle, date and time pickers, and SVG icons.  
 Designed to save development time and maintain consistency across your app forms.
@@ -52,5 +52,5 @@ Add the package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  advanced_textfield: ^1.0.0
+  textfield_customizer: ^1.0.0
 
