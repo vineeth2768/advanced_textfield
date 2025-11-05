@@ -33,15 +33,7 @@ Flutter Developer
 
 💼 2+ years of experience in mobile app development
 
-📱 Worked on:
-
-ASAP Connect
-
-ASAP Staf
-
-GetAt
-
-Beauty Deals App, and more
+📱 Worked on: 10+ Live Projects
 
 🧠 Skills:
 Flutter • GetX • Provider • REST APIs • Firebase • UI/UX Optimization
