@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 
-/// A customizable text field with support for password, date, and time pickers.
+// A customizable text field with support for password, date, and time pickers.
 class TextfieldCustomizer extends StatefulWidget {
   final double? height;
   final String? labelText;
