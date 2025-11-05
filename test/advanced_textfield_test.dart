@@ -3,18 +3,23 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:advanced_textfield/advanced_textfield.dart';
 
 void main() {
-  testWidgets('CustomTextField renders correctly', (WidgetTester tester) async {
+  testWidgets('AdvancedTextField renders correctly',
+      (WidgetTester tester) async {
     final controller = TextEditingController();
 
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
-          body: CustomTextField(hintText: 'Enter text', controller: controller),
+          body: AdvancedTextField(
+            hintText: 'Enter text',
+            controller: controller,
+          ),
         ),
       ),
     );
 
-    expect(find.byType(CustomTextField), findsOneWidget);
+    // ✅ Assertions
+    expect(find.byType(AdvancedTextField), findsOneWidget);
     expect(find.text('Enter text'), findsOneWidget);
   });
 }

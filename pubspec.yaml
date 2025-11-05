@@ -1,7 +1,7 @@
 name: advanced_textfield
 description: A customizable Flutter TextFormField widget with support for password, date, and time input along with prefix/suffix SVG icons.
 version: 1.0.0
-homepage: https://github.com/yourusername/advanced_textfield
+homepage: https://github.com/vineeth2768/advanced_textfield.git
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
