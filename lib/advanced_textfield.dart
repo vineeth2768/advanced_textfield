@@ -1,4 +1,4 @@
-library custom_textfield;
+library;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -109,7 +109,7 @@ class _AdvancedTextFieldState extends State<AdvancedTextField> {
         boxShadow: widget.spreadColor != null
             ? [
                 BoxShadow(
-                  color: widget.spreadColor!.withOpacity(0.1),
+                  color: widget.spreadColor!.withValues(alpha: 0.1),
                   spreadRadius: 2,
                   blurRadius: 6,
                   offset: const Offset(0, 2),
