@@ -6,7 +6,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 
 /// A customizable text field with support for password, date, and time pickers.
-class CustomTextField extends StatefulWidget {
+class AdvancedTextField extends StatefulWidget {
   final double? height;
   final String? labelText;
   final String hintText;
@@ -28,7 +28,7 @@ class CustomTextField extends StatefulWidget {
   final Color? fillColor;
   final ValueChanged<String>? onSubmitted;
 
-  const CustomTextField({
+  const AdvancedTextField({
     super.key,
     this.labelText,
     required this.hintText,
@@ -53,10 +53,10 @@ class CustomTextField extends StatefulWidget {
   });
 
   @override
-  State<CustomTextField> createState() => _CustomTextFieldState();
+  State<AdvancedTextField> createState() => _AdvancedTextFieldState();
 }
 
-class _CustomTextFieldState extends State<CustomTextField> {
+class _AdvancedTextFieldState extends State<AdvancedTextField> {
   late bool _obscureText;
   final FocusNode _focusNode = FocusNode();
 
@@ -91,7 +91,8 @@ class _CustomTextFieldState extends State<CustomTextField> {
     if (pickedTime != null) {
       final now = DateTime.now();
       widget.controller.text = DateFormat('hh:mm a').format(
-        DateTime(now.year, now.month, now.day, pickedTime.hour, pickedTime.minute),
+        DateTime(
+            now.year, now.month, now.day, pickedTime.hour, pickedTime.minute),
       );
     }
   }

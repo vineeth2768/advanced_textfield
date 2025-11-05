@@ -1,3 +1,15 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+- Initial release of `advanced_textfield` package.
+- Added fully customizable `CustomTextField` widget.
+- Features:
+  - Supports text, password, date, and time input.
+  - Optional prefix and suffix SVG icons.
+  - Configurable border radius, colors, height, and input formatters.
+  - Includes validation and onSubmitted callbacks.
+  - Works seamlessly in light and dark themes.
+
+## 1.0.1 (planned)
+
+- Add support for error and helper text customization.
+- Add theme-based automatic styling (Material 3 ready).
