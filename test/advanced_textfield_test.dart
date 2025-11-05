@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advanced_textfield/advanced_textfield.dart';
+import 'package:textfield_customizer/advanced_textfield.dart';
 
 void main() {
   testWidgets('AdvancedTextField renders correctly',
@@ -10,7 +10,7 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
-          body: AdvancedTextField(
+          body: TextfieldCustomizer(
             hintText: 'Enter text',
             controller: controller,
           ),
@@ -19,7 +19,7 @@ void main() {
     );
 
     // ✅ Assertions
-    expect(find.byType(AdvancedTextField), findsOneWidget);
+    expect(find.byType(TextfieldCustomizer), findsOneWidget);
     expect(find.text('Enter text'), findsOneWidget);
   });
 }
